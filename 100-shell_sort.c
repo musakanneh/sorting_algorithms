@@ -2,7 +2,8 @@
 /**
  * shell_sort -Sort an array using shell_sort algorithm
  * @array: array
- * @size: size
+ * @size: size of the array
+ * Return: NULL
  **/
 void shell_sort(int *array, size_t size)
 {
