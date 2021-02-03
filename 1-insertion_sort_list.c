@@ -1,4 +1,5 @@
 #include "sort.h"
+
 /**
  * swap_left -swap two nodes right left position
  * @list: list
@@ -30,6 +31,7 @@ void swap_left(listint_t *list)
 			list = list->prev;
 	}
 }
+
 /**
  * swap_right -swap two nodes left rigth position
  * @l: list
@@ -66,12 +68,12 @@ void swap_right(listint_t *l)
 	print_list(head);
 	swap_left(l->prev);
 }
+
 /**
  * insertion_sort_list -sorts a doubly linked list in ascending order
  * @list: list
  * Return: NULL
- *
- **/
+ */
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *l;

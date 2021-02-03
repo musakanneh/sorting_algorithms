@@ -6,7 +6,6 @@
  *@yp: Pointer tothe second integer.
  *Return: Nothing.
  */
-
 void swap(int *xp, int *yp)
 {
 	int temp = *xp;
@@ -14,15 +13,12 @@ void swap(int *xp, int *yp)
 	*yp = temp;
 }
 
-
-
 /**
  *bubble_sort - Sorts an array of integers in ascending order
  *@array: An array of integers to be sorted.
  *@size: Size of the array.
  *Return: Nothing.
  */
-
 void bubble_sort(int *array, size_t size)
 {
 	size_t i, j;
